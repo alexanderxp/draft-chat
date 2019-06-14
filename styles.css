@@ -25,3 +25,13 @@ body {
 .people-list .search {
   padding: 7px;                      /*  расстояние между пользователями в списке */
 }
+
+.people-list input {                   /* форма поиска */
+  border-radius: 5px;
+  border: 2рх;
+  padding: 14px;
+  color: yellow;
+  background: #6A6C75;
+  width: 90%;
+  font-size: 14px;
+}
