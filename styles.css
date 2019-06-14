@@ -23,7 +23,7 @@ body {
 }
 
 .people-list .search {
-  padding: 7px;                      /*  расстояние между пользователями в списке */
+  padding: 7px;                      /*  отступы формы поиска */
 }
 
 .people-list input {                   /* форма поиска */
@@ -39,4 +39,8 @@ body {
 .people-list ul {                     /* отступы списка пользователей от краев чата */
   padding: 20px;
   height: 770px;
+}
+
+.people-list ul li {                    /* вертикальные расстояния между пользователями */
+  padding-bottom: 20px;
 }
