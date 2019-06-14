@@ -35,3 +35,8 @@ body {
   width: 90%;
   font-size: 14px;
 }
+
+.people-list ul {                     /* отступы списка пользователей от краев чата */
+  padding: 20px;
+  height: 770px;
+}
