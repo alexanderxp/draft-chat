@@ -48,3 +48,8 @@ body {
 .people-list img {                   /*  размещение фотографий пользовалетей слева от текста */
   float: left;
 }
+
+.people-list .about {                /*  стили класса about, теперь все выровнено в границах чата */
+  float: left;
+  margin-top: 8px;
+}
