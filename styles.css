@@ -9,3 +9,10 @@ body {
   padding: 40px 0;
   color: white;
 }
+
+.container {                           /*  главный блок (контейнер) */
+  margin: 0 auto;
+  width: 790px;                       /*  ширина всего чата */
+  background: #333333;                /*  само собой фон чата */
+  border-radius: 5px;
+}
