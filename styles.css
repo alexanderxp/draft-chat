@@ -57,3 +57,7 @@ body {
 .people-list .about {                /* горизонтальный отступ фото и имен пользователей */
   padding-left: 8px;
 }
+
+.people-list .status {               /* цвет статуса online offline */
+  color: yellow;
+}
