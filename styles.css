@@ -61,3 +61,12 @@ body {
 .people-list .status {               /* цвет статуса online offline */
   color: yellow;
 }
+
+.chat {                                              /* параметры чата */
+  width: 490px;                                     /* ширина истории чата */
+  float: left;                                      /* размещение панели истории чата */
+  background: #d3ffce;                              /*  Цвет фона истории  чата*/
+  border-top-right-radius: 5px;                     /*  верхний правый сглаженный угол истории  чата*/
+  border-bottom-right-radius: 5px;                  /*  нижний правый сглаженный угол истории  чата*/
+  color: #ff3c50;                                   /*  Цвет текста истории чата*/
+}
