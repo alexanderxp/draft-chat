@@ -70,3 +70,8 @@ body {
   border-bottom-right-radius: 5px;                  /*  нижний правый сглаженный угол истории  чата*/
   color: #ff3c50;                                   /*  Цвет текста истории чата*/
 }
+
+.chat .chat-header {                                 /* граница между хедером и историей чата */
+  padding: 20px;
+  border-bottom: 2px solid white;
+}
