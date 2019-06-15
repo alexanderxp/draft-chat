@@ -88,3 +88,10 @@ body {
 .chat .chat-header .chat-num-messages {                /*  цвет текста количества сообщений в хедере истории чатов   */
   color: #40E0D0;
 }
+
+.chat .chat-history {                     /* характеристики окна истории чатов */
+  padding: 30px 30px 20px;
+  border-bottom: 2px solid white;       /* нижняя граница между историей чатов и textarea */
+  overflow-y: scroll;                    /* добавление бегунка */
+  height: 600px;                         /*  высота истории чата   */ 
+}
