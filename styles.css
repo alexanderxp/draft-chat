@@ -10,7 +10,7 @@ body {
   color: white;
 }
 
-.container {                           /*  главный блок (контейнер) */
+.container {                          /*  главный блок (контейнер) */
   margin: 0 auto;
   width: 790px;                       /*  ширина всего чата */
   background: #333333;                /*  само собой фон чата */
@@ -19,14 +19,14 @@ body {
 
 .people-list {                        /* распределяем и выравниваем отдельно список участников  */
   width: 300px;                       /*  ширина списка пользователей */
-  float: left;                       /*  расположение списка пользователей */
+  float: left;                        /*  расположение списка пользователей */
 }
 
 .people-list .search {
-  padding: 7px;                      /*  отступы формы поиска */
+  padding: 7px;                       /*  отступы формы поиска */
 }
 
-.people-list input {                   /* форма поиска */
+.people-list input {                  /* форма поиска */
   border-radius: 5px;
   border: 2рх;
   padding: 14px;
@@ -36,12 +36,12 @@ body {
   font-size: 14px;
 }
 
-.people-list ul {                     /* отступы списка пользователей от краев чата */
+.people-list ul {                    /* отступы списка пользователей от краев чата */
   padding: 20px;
   height: 770px;
 }
 
-.people-list ul li {                    /* вертикальные расстояния между пользователями */
+.people-list ul li {                 /* вертикальные расстояния между пользователями */
   padding-bottom: 20px;
 }
 
@@ -62,7 +62,7 @@ body {
   color: yellow;
 }
 
-.chat {                                              /* параметры чата */
+.chat {                                             /* параметры чата */
   width: 490px;                                     /* ширина истории чата */
   float: left;                                      /* размещение панели истории чата */
   background: #d3ffce;                              /*  Цвет фона истории  чата*/
@@ -89,18 +89,25 @@ body {
   color: #40E0D0;
 }
 
-.chat .chat-history {                     /* характеристики окна истории чатов */
+.chat .chat-header .chat-about {           /* отступы текста в хедере истории чатов */
+  float: left;                             /* левее , ближе к аватарке */
+  padding-left: 20px;                      /* левое расстояние от аватарки до текста */
+  margin-top: 6px;                         /* отступ текста от верхнего края блока хедера */
+}
+
+
+.chat .chat-history {                    /* характеристики окна истории чатов */
   padding: 30px 30px 20px;
-  border-bottom: 2px solid white;       /* нижняя граница между историей чатов и textarea */
+  border-bottom: 2px solid white;        /* нижняя граница между историей чатов и textarea */
   overflow-y: scroll;                    /* добавление бегунка */
   height: 600px;                         /*  высота истории чата   */ 
 }
 
 .clearfix:after {                       /* характеристики основного блока пользователей  */
-  visibility: hidden;                  /* ничего */
-  display: block;                      /* отображать как блок */
-  font-size: 0;                        /* ничего */
-  content: " ";                        /* так виден фон блока пользователей */
-  clear: both;                         /* так виден фон блока пользователей */
-  height: 0;                           /* ничего */
+  visibility: hidden;                   /* ничего */
+  display: block;                       /* отображать как блок */
+  font-size: 0;                         /* ничего */
+  content: " ";                         /* так виден фон блока пользователей */
+  clear: both;                          /* так виден фон блока пользователей */
+  height: 0;                            /* ничего */
 }
