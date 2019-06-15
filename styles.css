@@ -171,3 +171,13 @@ body {
   resize: none;                                   /* запрет ручного изменения размера поля textarea */
 }
 
+.chat .chat-message button {                   /* характеристики кнопки */
+  float: right;                             /* кнопка справа */
+  color: #40e0d0;                           /* цвет самой кнопки отправить (не нажатой)  */   
+  font-size: 16px;                          /* размер шрифта кнопки */
+  text-transform: uppercase;                /* большими буквами */
+  border: none;                             /* нет границы */
+  cursor: pointer;                          /* курсор изменяется при наведении на кнопку */
+  font-weight: bold;                        /* жирный текст кнопки */
+  background: #d3ffce;                      /* цвет фона кнопки отправить  */              
+}
