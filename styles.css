@@ -154,3 +154,7 @@ body {
 .align-right {                                   /* размещение текста над блоками сообщений по разные стороны друг от друга */
   text-align: right;
 }
+
+.chat .chat-message {                              /* Отступы textarea */
+  padding: 30px;
+}
