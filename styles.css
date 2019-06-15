@@ -181,3 +181,7 @@ body {
   font-weight: bold;                        /* жирный текст кнопки */
   background: #d3ffce;                      /* цвет фона кнопки отправить  */              
 }
+
+.chat .chat-message button:hover {         /*  Цвет букв меняется при навелении курсора на кнопку  */
+  color: #0000FF;
+}
