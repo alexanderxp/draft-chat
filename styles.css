@@ -115,3 +115,8 @@ body {
 .chat .chat-history .message-data {
   margin-bottom: 15px;                   /*  расстояние от границ  блока и между сообщениями в истории чата  */ 
 }
+
+.chat .chat-history .message-data-time {     /* время сообщений в истории чата */
+  color: #a8aab1;                           /* серый */
+  padding-left: 10px;                       /* отступ от имени пользователя, что написал сообщение */
+}
