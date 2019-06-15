@@ -79,3 +79,8 @@ body {
 .chat .chat-header img {                               /* размещение картинки аватарки в хедере слева от текста */
   float: left;
 }
+
+.chat .chat-header .chat-with {                        /* характеристики текста в хедере истории чатов */
+  font-weight: bold;
+  font-size: 16px;
+}
