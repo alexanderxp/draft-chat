@@ -84,3 +84,7 @@ body {
   font-weight: bold;
   font-size: 16px;
 }
+
+.chat .chat-header .chat-num-messages {                /*  цвет текста количества сообщений в хедере истории чатов   */
+  color: #40E0D0;
+}
