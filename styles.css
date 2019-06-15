@@ -201,4 +201,15 @@ body {
   margin-top: 12px;
 }
 
+.fa-star {                            /* стили иконки звезда */
+cursor: pointer;                      /* меняется курсор при наведении (тут срабатывает лишь отдельно */
+}
+
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {    /* стили иконок прикрепления файлов */
+  font-size: 18px;
+  color: Green;
+  cursor: pointer;                    /* меняется курсор при наведении */
+}
+
+
 
