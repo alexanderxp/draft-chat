@@ -158,3 +158,16 @@ body {
 .chat .chat-message {                              /* Отступы textarea */
   padding: 30px;
 }
+
+.chat .chat-message textarea {                    /* характеристики textarea */
+  width: 100%;                                    /* ширина чата в процентах относительно уже заданной */
+  border: 5рх;                                    /* граница */
+  padding: 10px 20px;                             /* отступы текста от границ textarea */
+  margin-bottom: 10px;                            /* нижний отступ textarea от внешних границ */
+  border-radius: 5px;                             /* округлость углов textarea */
+  background: #53F3E3;                            /* фон */
+  color: DarkBlue;                                /* цвет шрифта */
+  font: 18px/22px "Lato", Arial, sans-serif;      /* параметры шрифта */
+  resize: none;                                   /* запрет ручного изменения размера поля textarea */
+}
+
