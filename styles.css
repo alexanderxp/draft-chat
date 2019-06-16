@@ -23,7 +23,8 @@ body {
 }
 
 .people-list .search {
-  padding: 7px;                       /*  отступы формы поиска */
+  padding: 19px;                      /*  отступы формы поиска */
+  border-bottom: 2px solid white;     /*  добавил белую границу чтоб было гармонично */
 }
 
 .people-list input {                  /* форма поиска */
