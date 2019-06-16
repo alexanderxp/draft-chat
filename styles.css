@@ -223,4 +223,9 @@ cursor: pointer;                      /* меняется курсор при н
   color: #86BB71;                       /* зеленые */
 }
 
+/*  стили полос прокрутки */
+::-webkit-scrollbar                         { width: 15px; height: 5px;}     /* высота, ширина */
+::-webkit-scrollbar-button                  { background-color: #6A6C75; }   /* кнопки */
+::-webkit-scrollbar-track-piece             { background-color: #40E0D0;}    /*  фон полосы */
+::-webkit-scrollbar-thumb                   { height: 50px; background-color: #6A6C75; border-radius: 5px;}  /*  бегунок */
 
