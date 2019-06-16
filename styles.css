@@ -159,8 +159,8 @@ body {
 
 .chat .chat-message {                              /* Отступы textarea */
   padding: 30px;
-  background: #6A6C75;                           /* добавил другой цвет фона хедера */
-  border-bottom-right-radius: 10px;              /* скорректировал верхний округлый угол */
+  background: #6A6C75;                           /* добавил другой цвет фона в котором textarea */
+  border-bottom-right-radius: 10px;              /* скорректировал нижний округлый угол */
 }
 
 .chat .chat-message textarea {                    /* характеристики textarea */
