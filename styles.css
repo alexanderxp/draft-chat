@@ -52,6 +52,11 @@ body {
   float: left;
 }
 
+.people-list ul li:hover {                     /* добавил выделение области пользователя при наведении */
+  background-color: #6A6C75;
+  border-radius: 20px;
+}
+
 .people-list .about {                          /*  стили класса about, теперь все выровнено в границах чата */
   float: left;
   margin-top: 8px;
