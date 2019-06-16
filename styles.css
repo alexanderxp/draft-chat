@@ -184,7 +184,6 @@ body {
 
 .chat .chat-message textarea {                   /* характеристики textarea */
   width: 100%;                                   /* ширина чата в процентах относительно уже заданной */
-  border: 5рх;                                   /* граница */
   padding: 10px 20px;                            /* отступы текста от границ textarea */
   margin-bottom: 10px;                           /* нижний отступ textarea от внешних границ */
   border-radius: 5px;                            /* округлость углов textarea */
