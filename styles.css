@@ -74,6 +74,8 @@ body {
 .chat .chat-header {                                 /* граница между хедером и историей чата */
   padding: 20px;
   border-bottom: 2px solid white;
+  background: #6A6C75;                               /* добавил другой цвет фона хедера */
+  border-top-right-radius: 10px;                     /* скорректировал верхний округлый угол */
 }
 
 .chat .chat-header img {                               /* размещение картинки аватарки в хедере слева от текста */
@@ -157,6 +159,8 @@ body {
 
 .chat .chat-message {                              /* Отступы textarea */
   padding: 30px;
+  background: #6A6C75;                           /* добавил другой цвет фона хедера */
+  border-bottom-right-radius: 10px;              /* скорректировал верхний округлый угол */
 }
 
 .chat .chat-message textarea {                    /* характеристики textarea */
