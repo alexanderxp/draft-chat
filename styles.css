@@ -84,6 +84,7 @@ body {
   border-bottom: 2px solid white;
   background: #6A6C75;                          /* добавил другой цвет фона хедера */
   border-top-right-radius: 10px;                /* скорректировал верхний округлый угол */
+  width: 490px;                                 /* ширина блока хедера чата */
 }
 
 .chat .chat-header img {                        /* размещение картинки аватарки в хедере слева от текста */
@@ -110,6 +111,7 @@ body {
   border-bottom: 2px solid white;              /* нижняя граница между историей чатов и textarea */
   overflow-y: scroll;                          /* добавление бегунка */
   height: 600px;                               /*  высота истории чата   */ 
+  width: 490px;                                /* ширина блока истории чата */
 }
 
 .clearfix:after {                              /* характеристики основного блока пользователей  */
