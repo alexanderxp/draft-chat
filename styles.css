@@ -83,7 +83,6 @@ body {
   padding: 15px;
   border-bottom: 2px solid white;
   background: #6A6C75;                          /* добавил другой цвет фона хедера */
-  border-top-right-radius: 10px;                /* скорректировал верхний округлый угол */
   width: 490px;                                 /* ширина блока хедера чата */
 }
 
