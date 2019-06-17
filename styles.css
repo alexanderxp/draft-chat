@@ -110,7 +110,7 @@ body {
   padding: 30px 30px 20px;
   border-bottom: 2px solid white;              /* нижняя граница между историей чатов и textarea */
   overflow-y: scroll;                          /* добавление бегунка */
-  height: 600px;                               /*  высота истории чата   */ 
+  height: 512px;                               /*  высота истории чата   */ 
   width: 490px;                                /* ширина блока истории чата */
 }
 
