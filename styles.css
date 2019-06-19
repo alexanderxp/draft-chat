@@ -256,6 +256,10 @@ body {
 cursor: pointer;								                    /* меняется курсор при наведении (тут срабатывает лишь отдельно) */
 }
 
+.chat .fa-star:active{
+  color: MediumBlue;
+}
+
 .chat .chat-message .fa-paperclip, .chat .chat-message .fa-file-image-o {     /* стили иконок прикрепления файлов */
   font-size: 18px;
   color: #53F3E3;                                  /* изменил цвет на облачный */
