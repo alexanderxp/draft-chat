@@ -22,18 +22,33 @@ body {
   float: left;                                /*  расположение списка пользователей */
 }
 
-.people-list .left-header {
-  padding: 15px;                              /*  отступы формы поиска */
+.people-list .left-header  {                             
+  width: 400px; 
   float: left; 
+  padding-top: 15px;                              /*  отступы  */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;                 /*  добавил белую границу чтоб было гармонично */
 }
 
-.people-list input {                            /* форма поиска */
-  border-radius: 5px;
-  padding: 19px;
+.settings {
+	float: left; 
+}
+
+ .timeonline {
+	float: left; 
+  	width: 110px; 
+	height: 60px;
+  	margin-top: 0px;
+	margin-bottom: 0px;
+  	margin-left: 20px;
+	padding-top: 0px;                              /*  отступы  */
+  	padding-left: 10px;
+}
+
+.youstatus {                         /* ваш цвет статуса online offline */
   color: yellow;
-  background: #6A6C75;
-  width: 80%;
-  font-size: 14px;
 }
 
 .people-list ul {                              /* отступы списка пользователей от краев чата */
