@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">     <!--   -->
+<html lang="ru">                                                          <!--   -->
 <head>
    <meta charset="UTF-8">                                                 <!--   -->
    <meta name="каркас">                                                   <!--   -->
    <title>Чат многофункциональный</title>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  <!-- библиотека иконок font-awesome (файлом подключал, но не отображает)-->
 </head>
-	
-  
 
 <style>                      <!-- /* Убираем маркеры (чтоб не забыть) */ -->
    li {
@@ -18,19 +17,19 @@
     margin-left: 0;             /* Отступ слева в браузере IE и Opera */
     padding-left: 0;            /* Отступ слева в браузере Firefox, Safari, Chrome */
    }
-  </style>
-  
+</style>
+ 
 <body>
 	
 	<div class="container clearfix">
 		<div class="people-list" id="people-list">
-						
+			
 			<div class = "left-header">
 				<a href = "" >
 					<img src="image/logoDNA.png" alt="logo">
 				</a>
 			</div>
-			
+	
 			<div class="search">
 				<input type="text" placeholder="поиск">
 				<i class="fa fa-search"></i>
@@ -124,110 +123,111 @@
 					</div>
 				</li>
 			</ul>
-<!-- БЛОК ИНФОРМАЦИИ О ВЕЕДЕННОМ СООБЩЕНИИ -->
+			
 			<p>Количество введенных символов: <output name="result">0</output></p>
 			<p>Количество введенных букв: <output name="result">0</output></p>
 			<p>Количество невидимых символов: <output name="result">0</output></p>
 			<p>Количество знаков препинания: <output name="result">0</output></p>
 	
 		</div>
-		<div class = "right-menu">
-			<input type="radio" id='one' name='contorol' checked/>
+		
+		<div class = "right-header">
+			    <input type="radio" id='one' name='contorol' checked/>
     			<label for="one"><i class="fa fa-user" aria-hidden="true"></i></label>
     			<input type="radio" id='two' name='contorol' />
     			<label for="two"><i class="fa fa-users" aria-hidden="true"></i></label>
     			<input type="radio" id='three' name='contorol' />
     			<label for="three"><i class="fa fa-share-alt" aria-hidden="true"></i></label>
-		</div>	
+		</div>
 <!-- САМ ЧАТ -->		
 		
-			<div class="chat">    
+		<div class="chat">    
 
 <!-- ХЕДЕР ВВОДА СООБЩЕНИЙ-->	
 			
-		<div class="chat-header clearfix">
-			<img src="image/04.png" alt="avatar">
-				<div class="chat-about">
-					<div class="chat-with">Анастасия</div>
-					<div class="chat-num-messages">10 сообщений</div>
-				</div>
-			<i class="fa fa-star"></i>
-		</div>
+			<div class="chat-header clearfix">
+				<img src="image/04.png" alt="avatar">
+					<div class="chat-about">
+						<div class="chat-with">Анастасия</div>
+						<div class="chat-num-messages">10 сообщений</div>
+					</div>
+				<i class="fa fa-star"></i>
+			</div>
 				
 <!-- ИСТОРИЯ СООБЩЕНИЙ-->				
 				
-		<div class="chat-history">
-				
-			<ul>
-			   <li>
-				<div class="message-data">
-					<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
-					<span class="message-data-time">09:09 Сегодня</span>
-				</div>
-					<div class="message my-message">Я так рада!
+			<div class="chat-history">
+					
+				<ul>
+				   <li>
+					<div class="message-data">
+						<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
+						<span class="message-data-time">09:09 Сегодня</span>
 					</div>
-			   </li>
-			   <li class="clearfix">
-				<div class="message-data align-right">
-					<span class="message-data-time">09:11 Сегодня</span> &nbsp; &nbsp;
-					<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
-				</div>
-					<div class="message other-message float-right">Я тоже)
+						<div class="message my-message">Я так рада!
+						</div>
+				   </li>
+				   <li class="clearfix">
+					<div class="message-data align-right">
+						<span class="message-data-time">09:11 Сегодня</span> &nbsp; &nbsp;
+						<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
 					</div>
-			   </li>
-			   <li>
-				<div class="message-data">
-					<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
-					<span class="message-data-time">10:20 AM, Today</span>
-				</div>
-					<div class="message my-message">Хочу в ресторан.
+						<div class="message other-message float-right">Я тоже)
+						</div>
+				   </li>
+				   <li>
+					<div class="message-data">
+						<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
+						<span class="message-data-time">10:20 AM, Сегодня</span>
 					</div>
-			    </li>
-			    <li class="clearfix">
-				<div class="message-data align-right">
-					<span class="message-data-time">10:22 Сегодня</span> &nbsp; &nbsp;
-					<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
-				</div>
-					<div class="message other-message float-right">Уже забронировал на вечер
+						<div class="message my-message">Хочу в ресторан.
+						</div>
+					</li>
+					<li class="clearfix">
+					<div class="message-data align-right">
+						<span class="message-data-time">10:22 Сегодня</span> &nbsp; &nbsp;
+						<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
 					</div>
-			   </li>
-			   <li>
-				<div class="message-data">
-					<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
-					<span class="message-data-time">10:40 Сегодня</span>
-				</div>
-					<div class="message my-message">Когда ты успел?
+						<div class="message other-message float-right">Уже забронировал на вечер
+						</div>
+				   </li>
+				   <li>
+					<div class="message-data">
+						<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
+						<span class="message-data-time">10:40 Сегодня</span>
 					</div>
-			   </li>
-			   <li class="clearfix">
-				<div class="message-data align-right">
-					<span class="message-data-time">10:44 Сегодня</span> &nbsp; &nbsp;
-					<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
-				</div>
-					<div class="message other-message float-right">Еще вчера перед сном ты бормотала что хочешь в ресторан)
+						<div class="message my-message">Когда ты успел?
+						</div>
+				   </li>
+				   <li class="clearfix">
+					<div class="message-data align-right">
+						<span class="message-data-time">10:44 Сегодня</span> &nbsp; &nbsp;
+						<span class="message-data-name">Вы</span> <i class="fa fa-circle me"></i>
 					</div>
-			   </li>
-			   <li>
-				<div class="message-data">
-					<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
-					<span class="message-data-time">11:11 Сегодня</span>
-				</div>
-					<div class="message my-message">Я поражена твоей успеваемостью)
+						<div class="message other-message float-right">Еще вчера перед сном ты бормотала что хочешь в ресторан)
+						</div>
+				   </li>
+				   <li>
+					<div class="message-data">
+						<span class="message-data-name"><i class="fa fa-circle online"></i>Анастасия</span>
+						<span class="message-data-time">11:11 Сегодня</span>
 					</div>
-			   </li>
-			   <li>
-				<div class="message-data"><span class="message-data-name"><em class="fa fa-circle online"></em> Вы</span> 
-					<span class="message-data-time">12:12 Сегодня</span>
-				</div>
-					<div class="message other-message float-right">))
+						<div class="message my-message">Я поражена твоей успеваемостью)
+						</div>
+				   </li>
+				   <li>
+					<div class="message-data"><span class="message-data-name"><em class="fa fa-circle online"></em> Вы</span> 
+						<span class="message-data-time">12:12 Сегодня</span>
 					</div>
-			   </li>
-		      </ul>
-		</div>
+						<div class="message other-message float-right">))
+						</div>
+				   </li>
+				  </ul>
+			</div>
 <!-- ТЕКСТОВОЕ ПОЛЕ ВВОДА СООБЩЕНИЙ -->			
 			
 		<div class="chat-message clearfix">
-		                 <a href = ""><i class="fa fa-align-justify" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		         <a href = ""><i class="fa fa-align-justify" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 				 <a href = ""><i class="fa fa-align-center" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 				 <a href = ""><i class="fa fa-italic" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 				 <a href = ""><i class="fa fa-bold" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -235,8 +235,8 @@
 				 <a href = ""><i class="fa fa-link" aria-hidden="true"></i></a><br>
 				 <br>
 			<textarea name="message-to-send" id="message-to-send" placeholder="Ваше сообщение" rows="3"></textarea>
-			   	<i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-			       	<i class="fa fa-file-image-o"></i>
+				<i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-file-image-o"></i>
 					<button>ОТПРАВИТЬ</button>
 		</div>
 	</div>
