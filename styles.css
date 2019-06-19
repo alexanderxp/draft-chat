@@ -34,12 +34,12 @@ body {
   border-bottom: 2px solid white;             /*  добавил белую границу чтоб было гармонично */
 }
 
-.people-list input {                           /* форма поиска */
+.people-list input {                            /* форма поиска */
   border-radius: 5px;
-  padding: 14px;
+  padding: 19px;
   color: yellow;
   background: #6A6C75;
-  width: 90%;
+  width: 80%;
   font-size: 14px;
 }
 
