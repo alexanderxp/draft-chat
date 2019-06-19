@@ -22,6 +22,11 @@ body {
   float: left;                                /*  расположение списка пользователей */
 }
 
+.people-list .left-header {
+  padding: 15px;                              /*  отступы формы поиска */
+  float: left; 
+}
+
 .people-list .search {
   padding: 19px;                               /*  отступы формы поиска */
   border-bottom: 2px solid white;              /*  добавил белую границу чтоб было гармонично */
