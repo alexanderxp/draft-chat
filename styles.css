@@ -266,6 +266,14 @@ cursor: pointer;								                    /* меняется курсор п�
   cursor: pointer;                                 /* меняется курсор при наведении */
 }
 
+.chat .chat-message .fa-paperclip:active{
+  color: MediumBlue;
+}
+
+.chat .chat-message .fa-file-image-o:active{
+  color: MediumBlue;
+}
+
 .online {									                         /* цвет иконок online в списке учатников */
   color: #86BB71;                                  /* зеленые */
 }
