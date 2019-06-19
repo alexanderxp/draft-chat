@@ -27,13 +27,6 @@ body {
   float: left; 
 }
 
-.people-list .search {
-  padding-top: 15px;                              /*  отступы формы поиска */
-  padding-left: 60px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid white;             /*  добавил белую границу чтоб было гармонично */
-}
-
 .people-list input {                            /* форма поиска */
   border-radius: 5px;
   padding: 19px;
@@ -220,12 +213,6 @@ body {
  color: #01a715;
 }
 /* ------------------------ДАЛЕЕ СТИЛИЗАЦИЯ ИКОНОК FONT-AWESOME---------------------------------- : */
-.people-list .fa-search {                         /* стили иконки поиска */
-  position: relative;                             /* без этого стиля не работает */
-  left: -25px;                                    /* сдвиг иконки поиска влево */
-  font-size: 20px;
-  color: #40e0d0; 
-}
 
 .chat .chat-header .fa-star {                       /* стили иконки звезда */
   float: right;
