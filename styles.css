@@ -229,6 +229,22 @@ body {
 }
 /* ------------------------ДАЛЕЕ СТИЛИЗАЦИЯ ИКОНОК FONT-AWESOME---------------------------------- : */
 
+.people-list .fa-comment-o {                          /* стили иконки сообщения */
+  position: relative;
+  right: -40px;                                    /* сдвиг иконки поиска влево */
+  font-size: 40px;
+  color: #40e0d0; 
+  margin-top: 8px ;
+}
+
+ .people-list .fa-cog {                          /* стили иконки настроек (settings) */
+  position: relative;
+  right: -100px;                                    /* сдвиг иконки поиска влево */
+  font-size: 40px;
+  color: #40e0d0; 
+  margin-top: 10px ;
+}
+
 .chat .chat-header .fa-star {                       /* стили иконки звезда */
   float: right;
   color: Aqua;
